@@ -3,19 +3,22 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "gulp test"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
+    "gulp": "^3.9.1",
     "hbs": "~4.0.1",
     "morgan": "~1.8.1",
     "node-sass-middleware": "0.9.8",
     "serve-favicon": "~2.4.2"
   },
   "devDependencies": {
+    "gulp-webdriver": "^2.0.3",
     "wdio-dot-reporter": "0.0.9",
     "wdio-mocha-framework": "^0.5.11",
     "wdio-selenium-standalone-service": "0.0.9",
