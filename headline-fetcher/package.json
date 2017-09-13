@@ -14,5 +14,11 @@
     "morgan": "~1.8.1",
     "node-sass-middleware": "0.9.8",
     "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.8.0"
   }
 }
