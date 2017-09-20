@@ -32,3 +32,9 @@ npm-debug.log
 # SASS-compiled CSS files
 /public/stylesheets/style.css
 /public/stylesheets/style.css.map
+
+# Browser error screenshots
+errorShots/
+
+# Hidden environment variables
+/.env
