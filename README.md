@@ -1,5 +1,28 @@
 # Headline Fetcher 2
 
+## Running the app
+
+### Running locally (on a Mac)
+
+**Required** - Make sure you have installed: [Chrome](https://www.google.com/chrome/browser/desktop/index.html), [Chromedriver](http://webdriver.io/guide/getstarted/install.html#Setup-Chrome) and [Node and NPM](http://blog.teamtreehouse.com/install-node-js-npm-mac).
+
+1. [Register an FT API Key](https://developer.ft.com/)
+2. Clone this repo - `$ git clone git@github.com:BenRoss92/headline_fetcher.git && cd headline_fetcher`
+3. Install dependencies - `$ npm install`
+4. Create a `.env` file in root of the project and add your API key:
+```
+# e.g.
+FT_API_KEY=jfkldsjfkldfjkdlsu485543
+```
+5. Run the local server - `$ npm start`
+6. Use the app - Visit `http://localhost:3000/` in a browser
+
+### Running tests
+
+1. Download the latest [selenium standalone server]($ curl -O http://selenium-release.storage.googleapis.com/3.0/selenium-server-standalone-3.0.1.jar)
+2. Run the local server - `$ npm start`
+3. Run the tests while the server is running - in a new command line tab, run `$ npm test`
+
 ## Brief
 
 ### Criteria
