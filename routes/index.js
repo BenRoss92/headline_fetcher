@@ -5,9 +5,14 @@ var apiRequest = require('../lib/apiRequest');
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-  apiRequest.makeRequest(renderHeadlines);
+  // Blank search term provided as empty string
+  apiRequest.makeRequest('', renderHeadlines);
 
-  function renderHeadlines(headlines) {
+  function renderHeadlines(error, headlines) {
+    if (error) {
+      console.log(error);
+      return res.status(500).send({ error: 'Oops, something went wrong' });
+    }
     res.render('index', { title: 'Headline Fetcher', headlines: headlines });
   }
 

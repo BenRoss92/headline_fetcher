@@ -4,7 +4,7 @@
 
 ### Running locally (on a Mac)
 
-**Required** - Make sure you have installed: [Chrome](https://www.google.com/chrome/browser/desktop/index.html), [Chromedriver](http://webdriver.io/guide/getstarted/install.html#Setup-Chrome) and [Node and NPM](http://blog.teamtreehouse.com/install-node-js-npm-mac).
+**Required** - Make sure you have installed: [Chrome](https://www.google.com/chrome/browser/desktop/index.html), [Chromedriver](http://webdriver.io/guide/getstarted/install.html#Setup-Chrome) and [Node (any version between 1-7) and NPM](http://blog.teamtreehouse.com/install-node-js-npm-mac).
 
 1. [Register an FT API Key](https://developer.ft.com/)
 2. Clone this repo - `$ git clone git@github.com:BenRoss92/headline_fetcher.git && cd headline_fetcher`
